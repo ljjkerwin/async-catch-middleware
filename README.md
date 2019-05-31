@@ -1,10 +1,10 @@
-# A middleware for wrapping the other middleware to catch the error of the async function
+# A middleware for wrapping the other middleware to catch the error of the async function in expressjs
 
 
 ```
-const catch = require('async-catch-middleware');
+const asyncCatch = require('async-catch-middleware');
 
-app.use(catch(async function () {
+app.use(asyncCatch(async function () {
 
   // do something
 
